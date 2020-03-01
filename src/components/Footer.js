@@ -10,19 +10,11 @@ import vimeo from '../img/social/vimeo.svg';
 const Footer = class extends React.Component {
 	render() {
 		return (
-			<footer className="footer has-background-black has-text-white-ter">
+			<footer className="footer has-background-grey has-text-white-ter">
 				<div className="content has-text-centered">
-					<img
-						src={logo}
-						alt="Kaldi"
-						style={{
-							width  : '14em',
-							height : '10em'
-						}}
-					/>{' '}
 				</div>{' '}
-				<div className="content has-text-centered has-background-black has-text-white-ter">
-					<div className="container has-background-black has-text-white-ter">
+				<div className="content has-text-centered has-background-grey has-text-white-ter">
+					<div className="container has-background-grey has-text-white-ter">
 						<div className="columns">
 							<div className="column is-4">
 								<section className="menu">
@@ -60,17 +52,8 @@ const Footer = class extends React.Component {
 								</section>{' '}
 							</div>{' '}
 							<div className="column is-4 social">
-								<a title="facebook" href="https://facebook.com">
-									<img
-										src={facebook}
-										alt="Facebook"
-										style={{
-											width  : '1em',
-											height : '1em'
-										}}
-									/>{' '}
-								</a>{' '}
-								<a title="twitter" href="https://twitter.com">
+								
+								<a title="twitter" href="https://twitter.com/Tjadamsjr">
 									<img
 										className="fas fa-lg"
 										src={twitter}
@@ -81,7 +64,7 @@ const Footer = class extends React.Component {
 										}}
 									/>{' '}
 								</a>{' '}
-								<a title="instagram" href="https://instagram.com">
+								<a title="instagram" href="https://www.instagram.com/tjadamsjr/">
 									<img
 										src={instagram}
 										alt="Instagram"
@@ -91,7 +74,7 @@ const Footer = class extends React.Component {
 										}}
 									/>{' '}
 								</a>{' '}
-								<a title="vimeo" href="https://vimeo.com">
+								<a title="vimeo" href="https://www.youtube.com/user/tqsare/about?view_as=subscriber">
 									<img
 										src={vimeo}
 										alt="Vimeo"
