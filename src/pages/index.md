@@ -5,7 +5,7 @@ image: /img/home-space-2.jpg
 heading: Random thoughts from my mind
 subheading: 'A little bit of everything '
 mainpitch:
-  title: Enjoy the rid
+  title: Enjoy the ride
   description: |+
 
 description: Enjoy my thoughts
