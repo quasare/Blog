@@ -34,7 +34,7 @@ const TemplateWrapper = ({ children }) => {
         />
 
         
-        <meta name="theme-color" content="#fff" />
+        <meta name="theme-color" content="#061F2F" />
 
         <meta property="og:type" content="business.business" />
         <meta property="og:title" content={title} />

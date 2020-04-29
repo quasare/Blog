@@ -1,17 +1,36 @@
 @import "~bulma/sass/utilities/initial-variables"
 
 // Config vars
-// Kaldi logo brand color: #27486A
-$kaldi-red: #27486A
-$kaldi-red-invert: #fff
+// Kaldi logo brand color: #9CD7F7
+$kaldi-red: #9CD7F7
+$kaldi-red-invert: #101c29
 
 $primary: $kaldi-red
 $primary-invert: $kaldi-red-invert
-$body-color: #333
-$black: #2b2523
+$body-color: #061F2F
+$black:  #9CD7F7
 
 .navbar .navbar-menu
   box-shadow:none !important
+
+html
+  color: $kaldi-red !important
+
+.navbar
+  background-color: #101C29  !important
+
+.navbar-item
+  color: $kaldi-red !important
+
+.section 
+  
+
+.content   
+  color: $kaldi-red !important
+
+.title
+  
+  
 
 .content .taglist
   list-style: none
@@ -38,6 +57,7 @@ $black: #2b2523
   margin: 2em -50vw
   background-size: cover
   background-position: bottom
+  background-color: #101c29
   display: flex
   justify-content: center
   align-items: center
@@ -51,26 +71,42 @@ $black: #2b2523
     justify-content: center
     align-items: center
 
+.button-c
+    background-color: #9CD7F7 !important
+    color: #101c29 !important
+    box-shadow:  -1px .5px .5px 2px $kaldi-red
+    align-items: center;
+    border-radius: 4px;
+    display: inline-flex;
+    font-size: 1rem;
+    height: 2.5em;
+    line-height: 1.5;
+    position: relative;
+    vertical-align: top;
+    text-decoration: none !important
+
 .btn
     display: inline-block
     padding: 12px 16px 10px
     font-size: 18px
     font-size: 1rem
     line-height: 1.25
-    background-color: #fff
+    background-color: $kaldi-red
     border-radius: .25rem
     text-decoration: none
     font-weight: 700
-    color: #27486A
+    color: #101c29
     text-align: center
-    -webkit-box-shadow: inset 0 0 0 2px #A5A8A4
-    box-shadow: inset 0 0 0 2px #A5A8A4
+    -webkit-box-shadow: inset 0 0 0 2px $kaldi-red
+    box-shadow: inset 0 0 0 2px $kaldi-red
     -webkit-transition: all .15s ease
     transition: all .15s ease
 
 .margin-top-0
   margin-top: 0 !important
 
+.navbar-item
+  color: kaldi-red !important
 .navbar-item .icon
   color: $primary
 // Override for use of svg's from https://simpleicons.org/
@@ -82,7 +118,7 @@ $black: #2b2523
   padding: 0 1rem
 footer.footer
   padding: 3rem 0rem 0rem
-  background-color: transparent
+  background-color: #101C29
 
 //Menu overrides
 $menu-item-color: $white-ter
@@ -114,7 +150,9 @@ $menu-label-color: $white-ter
 
 // blog roll
 .blog-list-item.is-featured
-  background-color: #A5A8A4;
+  background-color: #101c29;
+  color: $kaldi-red
+  box-shadow: -0.5px 1px 5px 0.5px #101c29;
 .blog-list-item header
   display: flex;
   margin-bottom: 1em;
